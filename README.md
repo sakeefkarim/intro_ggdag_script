@@ -6,6 +6,10 @@ This repository includes the script file associated with the [Consortium on Anal
 
 ### What you'll need to do
 
-1. Access `code_intro_ggdag.R` within the `code` subfolder.
+1. Clone or download the contents of this repository.
 
-2. Run `renv::restore()` in R before going through the rest of the script!
+2. Open `intro_ggdag_script.Rproj` in RStudio.
+
+3. Retrieve `code_intro_ggdag.R` from the `code` subfolder.
+
+4. Run `renv::restore()` in R before going through the rest of the script!

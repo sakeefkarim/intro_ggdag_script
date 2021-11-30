@@ -214,7 +214,7 @@ shorten_dag_arrows <- function(tidy_dag, shorten_distance){
 
 #Source: https://stackoverflow.com/questions/65420136/r-how-do-you-adjust-the-arrows-in-a-ggplot-of-a-ggdag
 
-#To use this function, you'd adjust lines 139-140 as follows:
+#To use this function, you'd adjust lines 133-134 as follows:
 
 dag_cand3_gg <- dag_cand3 %>% tidy_dagitty(layout = "nicely") %>% 
                               node_dconnected(controlling_for = c("pnc", "ses")) %>% 
