@@ -194,7 +194,7 @@ dag_cand3 <- dagify(birth_defects ~ vitamins + pnc + genetics,
                     #Key difference!
                     coords = coord_dag)
 
-#Then, re-run lines 132-167!
+#Then, re-run lines 131-166!
 
 # ADDITIONAL TOOLS --------------------------------------------------------
 
